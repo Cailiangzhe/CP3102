@@ -30,7 +30,7 @@ sequenced**.
 
 New international students at JCU Singapore, in their **first month** after arrival.
 JCU Singapore is the launch case; the model is designed to extend later (see
-[`docs/future-work.md`](docs/future-work.md)).
+[`landed-app/docs/future-work.md`](landed-app/docs/future-work.md)).
 
 ---
 
@@ -54,7 +54,7 @@ A **mobile-first web app** that walks a student through a four-stage journey:
 - ✅ **Official-links directory** — every step traceable to its official source
 - ✅ **Mobile-friendly UI**
 
-**Out of scope this semester** (parked in [`docs/future-work.md`](docs/future-work.md)): a whole-of-Singapore version, an AI chatbot, accounts/login, and any feature that would have Landed give binding advice rather than point to official sources.
+**Out of scope this semester** (parked in [`landed-app/docs/future-work.md`](landed-app/docs/future-work.md)): a whole-of-Singapore version, an AI chatbot, accounts/login, and any feature that would have Landed give binding advice rather than point to official sources.
 
 ---
 
@@ -101,25 +101,30 @@ Or use the **Live Server** extension in VS Code.
 ## Repository structure
 
 ```text
-landed/
-├── README.md                  ← you are here
-├── landed-app/                ← the web app
-│   ├── index.html
-│   └── assets/
-│       ├── css/styles.css
-│       └── js/app.js
-└── docs/
-    ├── requirements.md        ← MVP scope & requirements
-    ├── sitemap.md             ← site structure & user flows
-    ├── persona.md             ← provisional persona (to be validated by survey)
-    ├── research-summary.md    ← survey method + results (filled from real responses)
-    ├── design-system.md       ← colours, type, components, breakpoints
-    ├── future-work.md         ← out-of-scope / next-semester ideas
-    ├── wireframes/            ← low-fidelity wireframes
-    └── meetings/              ← meeting agendas & minutes
+CP3102/
+├── README.md                       ← you are here
+├── week4/                          ← Week 4 deliverables
+│   ├── README_week4.md             ← build-ready tracker
+│   └── Interview Questions.pdf     ← research instrument (prioritisation survey)
+└── landed-app/                     ← the web app
+    ├── index.html
+    ├── assets/CSS/styles.css
+    ├── js/app.js
+    └── docs/
+        ├── requirements.md         ← MVP scope & requirements
+        ├── persona-current.md      ← personas (provisional — to validate via survey)
+        ├── persona-graduate.md
+        ├── prosona-firstyear.md
+        ├── ethics-and-risk.md      ← ethics rules + risk register
+        ├── official-resources.md   ← official-source audit
+        ├── resource-audit-summary.md
+        ├── future-work.md          ← out-of-scope / next-semester ideas
+        ├── meetings/               ← meeting agendas & minutes
+        └── wireframes/             ← low-fidelity wireframes
 ```
 
-Weekly progress notes live under `docs/`, e.g. [`docs/week-04/README.md`](docs/week-04/README.md).
+The Week 4 build-ready tracker is in [`week4/README_week4.md`](week4/README_week4.md).
+*Planned docs, not yet added:* `sitemap.md`, `research-summary.md`, `design-system.md`.
 
 ---
 
@@ -140,7 +145,7 @@ Weekly progress notes live under `docs/`, e.g. [`docs/week-04/README.md`](docs/w
 
 🚧 **Early development.** Week 4 is the *build-ready baseline* — research, requirements,
 design and a clean project skeleton — so development can begin in Week 5. See the
-weekly tracker in [`docs/week-04/README.md`](docs/week-04/README.md).
+weekly tracker in [`week4/README_week4.md`](week4/README_week4.md).
 
 ## Academic context & disclaimer
 
